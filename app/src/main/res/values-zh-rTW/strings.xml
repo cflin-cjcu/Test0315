@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">測試程式</string>
+    <string name="hintname">請輸入姓名</string>
+    <string name="btnsbmbit">確定</string>
+    <string name="welcome">, 您11111好!!!!</string>
+</resources>
