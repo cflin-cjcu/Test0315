@@ -4,4 +4,6 @@
     <string name="hintname">請輸入姓名</string>
     <string name="btnsbmbit">確定</string>
     <string name="welcome">, 您11111好!!!!</string>
+    <string name="sWeight">請輸入體重</string>
+    <string name="sHeight">請輸入身高</string>
 </resources>
