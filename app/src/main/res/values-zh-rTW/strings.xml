@@ -6,4 +6,6 @@
     <string name="welcome">, 您11111好!!!!</string>
     <string name="sWeight">請輸入體重</string>
     <string name="sHeight">請輸入身高</string>
+    <string name="gohome">返回主頁</string>
+    <string name="goresult">結果</string>
 </resources>

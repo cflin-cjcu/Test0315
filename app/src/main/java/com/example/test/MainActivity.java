@@ -3,6 +3,7 @@ package com.example.test;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -42,5 +43,10 @@ public class MainActivity extends AppCompatActivity {
         btn_submit = findViewById(R.id.btnSummit);
         ed_height = findViewById(R.id.edHeight);
         ed_weight = findViewById(R.id.edWeight);
+    }
+
+    public void goResult(View view) {
+        Intent intent = new Intent(this, ResultActivity.class);
+        startActivity(intent);
     }
 }
