@@ -23,16 +23,21 @@ public class ResultActivity extends AppCompatActivity {
         double ww = bundle.getDouble("keyweight",50.0);
         double bmi = ww / ((hh / 100.0) * (hh /100.0));
 
-//        ImageView showpic = findViewById(R.id.ivShow);
+        ImageView showpic = findViewById(R.id.ivShow);
+        showpic.setImageResource(R.drawable.s2);
 
         if(bmi<18.5) {
             Mes = "體重過輕";
+            showpic.setImageResource(R.drawable.s1);
         } else if (bmi >=18.5 && bmi < 24) {
             Mes = "體重正常";
+            showpic.setImageResource(R.drawable.s2);
         } else if (bmi >=24 && bmi < 27) {
             Mes = "體重過重";
+            showpic.setImageResource(R.drawable.s3);
         } else {
             Mes = "太胖了";
+            showpic.setImageResource(R.drawable.s4);
         }
 
         TextView showbmi = findViewById(R.id.tvShowBMI);
