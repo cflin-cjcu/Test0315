@@ -9,4 +9,10 @@
     <string name="goresult">Go Result</string>
     <string name="boy">Male</string>
     <string name="girl">Female</string>
+    <string-array name="streak">
+        <item>一分熟</item>
+        <item>五分熟</item>
+        <item>全熟</item>
+    </string-array>
+
 </resources>
