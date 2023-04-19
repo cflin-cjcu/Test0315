@@ -155,4 +155,14 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <ListView
+        android:id="@+id/lvFruit"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:background="#FE86ACEE"
+        android:entries="@array/streak"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/radioGroup" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
