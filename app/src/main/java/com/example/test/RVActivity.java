@@ -73,7 +73,7 @@ public class RVActivity extends AppCompatActivity {
 
         public class ViewHolder extends RecyclerView.ViewHolder {
 
-            private TextView name;
+            private TextView name       ;
             private TextView height;
             private TextView weight;
             private TextView bmi;
